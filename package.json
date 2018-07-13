@@ -1,0 +1,35 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --config=webpack.config.dev.js",
+    "build": "webpack --progress --hide-modules --config=webpack.config.prod.js",
+    "build-w": "webpack --progress --watch --hide-modules --config=webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fserver": "git+ssh://git@gitlab.58corp.com:fangfe/f-web-server.git#master",
+    "html-webpack-plugin": "^3.2.0",
+    "i": "^0.3.6",
+    "less": "^3.7.0",
+    "less-loader": "^4.1.0",
+    "npm": "^6.1.0",
+    "postcss-loader": "^2.1.6",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^3.6.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
